@@ -1,0 +1,17 @@
+.footer {
+	margin-top: 10px;
+	left: 0;
+	bottom: 0;
+	background-color: #333333;
+	width: 100%;
+}
+
+.ss {
+	text-align: center;
+	padding: 30px;
+}
+
+.shap {
+	padding-left: 16px;
+	padding-right: 16px;
+}

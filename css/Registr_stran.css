@@ -1,0 +1,85 @@
+@font-face {
+	font-family: "Century Gothic";
+	src: url("../fonts/Century Gothic.ttf") format("truetype");
+}
+
+body {
+	font-family: "Century Gothic", sans-serif;
+	margin: 0 auto;
+}
+
+.form {
+	transition: all 0.6s ease;
+	margin: 0 auto;
+	padding: 0 auto;
+	text-align: center;
+	border: 1px solid rgba(0,0,0,0.1);
+	width: 440px;
+	margin-top: 10%;
+	box-shadow: 0 0 8px rgba(0,0,0,0.8);
+}
+
+.th_form_registr {
+	font-size: 28px;
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+.poli_and_th {
+	font-size: 18px;
+	padding: 2%;
+}
+
+.poli {
+	padding: 10px;
+	font-size: 18px;
+	width: 60%;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+
+.knop {
+	border: none;
+	background-color: #c49826;
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	padding: 4%;
+	margin-top: 6%;
+	margin-bottom: 2%;
+	color: white;
+	border-radius: 1px;
+	transition: all 0.4s ease;
+	font-size: 16px;
+}
+
+.knop:hover {
+	transform: scale(0.9);
+	background-color: rgba(0,0,0,0);
+	box-shadow: none;
+	color: black;
+	border: 1px solid #c49826;
+	transition: all 0.4s ease;
+}
+
+form a {
+	text-decoration: none;
+	color: black;
+}
+
+form a:hover {
+	color: #c49826;
+}
+
+input[type=text] {
+	font-family: "Century Gothic", sans-serif;
+}
+
+input[type=email] {
+	font-family: "Century Gothic", sans-serif;
+}
+
+input[type=password] {
+	font-family: "Century Gothic", sans-serif;
+}
+
+input[type=submit] {
+	font-family: "Century Gothic", sans-serif;
+}

@@ -1,0 +1,62 @@
+.kontakts {
+	margin-top: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.kont_h2 {
+	text-align: center;
+	letter-spacing: 5px;
+	margin-bottom: 8%;
+}
+
+.kont_adres {
+	display: grid;
+	grid-template-areas: "kart adres";
+	margin-bottom: 8%;
+}
+
+.grid1 {
+	grid-area: kart;
+}
+
+.grid2 {
+	grid-area: adres;
+	margin-top: 30%;
+}
+
+.coth_cet {
+	text-align: center;
+}
+
+.grid_coth_cet {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20vw;
+	margin-bottom: 10%;
+}
+
+.set {
+	color: black;
+}
+
+.grid_cotryd {
+	margin-left: 20%;
+	margin-right: 20%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2vw;
+	margin-bottom: 10%;
+}
+
+@media screen and (min-width: 1920px) {
+	.kontakts {
+		margin-top: 7%;
+		margin-left: 26%;
+		margin-right: 26%;
+	}
+
+	.grid_coth_cet {
+		grid-gap: 17vw;
+	}
+}

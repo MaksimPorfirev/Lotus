@@ -1,0 +1,281 @@
+.th_cont_shkaf {
+	margin-top: 10%;
+	margin-left: 20%;
+	font-size: 28px;
+	letter-spacing: 5px;
+}
+
+/*slider*/
+
+.all {
+	margin-top: 4%;
+	margin-bottom: 60px;
+}
+
+#slider {
+    position: relative;
+	text-align: center;
+    top: 10px;
+}
+
+#slider {
+	margin: 0 auto;
+}
+
+#slides article {
+	width: 20%;
+	float: left;
+}
+
+#slides .image {
+	width: 500%;
+	line-height: 0;
+}
+
+#overflow {
+	width: 100%;
+	overflow: hidden;
+}
+
+article img {
+	width: 100%;
+}
+
+#desktop:checked ~ #slider {
+	max-width: 380px;
+}
+
+label, a {
+	cursor: pointer;
+}
+
+.all input {
+	display: none;
+}
+
+#switch1:checked ~ #slides .image {
+	margin-left: 0;
+}
+
+#switch2:checked ~ #slides .image {
+	margin-left: -100%;
+}
+
+#active label {
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	transition: opacity 0.2s ease-out;
+	opacity: 0.4;
+}
+
+#active {
+	margin: 2% 0 0;
+	text-align: center;
+}
+
+#active label:hover {
+	opacity: 1;
+	background: #bbb;
+	border-color: #bbb !important;
+}
+
+#switch1:checked ~ #active label:nth-child(1),
+#switch2:checked ~ #active label:nth-child(2) {
+	background: #bbb;
+	border-color: #bbb !important;
+}
+
+#slides .image {
+	transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+/*^slider^*/
+
+.cont_grid_pokyp {
+	margin-left: 20%;
+	margin-right: 20%;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 20px;
+}
+
+.inf_pokyp {
+	transition: all 0.4s ease;
+	border: 1px solid #c49826;
+	height: 39%;
+}
+
+.inf_pokyp:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	transform: scale(1.04);
+	transition: all 0.8s ease;
+}
+
+.pokyp {
+	background-color: #c49826;
+	color: white;
+	padding: 2%;
+}
+
+.th_then {
+	margin: 0;
+	font-size: 12px;
+}
+
+.thena {
+	font-size: 24px;
+	color: black;
+	text-align: center;
+}
+
+.lin {
+	margin: 0 auto;
+	padding: 0 auto;
+	width: 90%;
+	padding-top: 0.1px;
+	background-color: white;
+}
+
+.knop {
+	padding-top: 4%;
+	text-align: center;
+	margin: 4% 0 4% 0;
+}
+
+.v_kor {
+	margin-right: 2%;
+	padding: 2% 2%;
+	border: 1px solid white;
+	color: white;
+}
+
+.v_kor:hover {
+	transition: all 0.8s ease;
+	color: black;
+	border: 1px solid black;
+}
+
+.kup {
+	margin-left: 2%;
+	padding: 2% 8%;
+	border: 1px solid white;
+	color: white;
+}
+
+.kup:hover {
+	transition: all 0.8s ease;
+	color: black;
+	border: 1px solid black;
+}
+
+.konfig {
+	padding: 4%;
+	font-size: 14px;
+}
+
+.rath {
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
+.cont_grid_rathmer {
+	text-align: center;
+	display: grid;
+	grid-template-areas: "dlin x1 shir x2 visot""rath_dlin x1 rath_shir x2 rath_visot";
+}
+
+.dlin {
+	margin: 0;
+ 	grid-area: dlin;
+ 	font-size: 12px;
+}
+
+.rath_dlin {
+	margin: 0;
+	grid-area: rath_dlin;
+}
+
+.shir {
+	margin: 0;
+	grid-area: shir;
+	font-size: 12px;
+}
+
+.rath_shir {
+	margin: 0;
+	grid-area: rath_shir;
+}
+
+.visot {
+	margin: 0;
+	grid-area: visot;
+	font-size: 12px;
+}
+
+.rath_visot {
+	margin: 0;
+	grid-area: rath_visot;
+}
+
+.X1 {
+	grid-area: x1;
+}
+
+.X2 {
+	grid-area: x2;
+}
+
+.cont_grid_rathmer2 {
+	margin-left: 16%;
+	margin-right: 16%;
+	text-align: center;
+	display: grid;
+	grid-template-areas: "dlin x1 visot""rath_dlin x1 rath_visot";
+}
+
+.opis {
+	margin-left: 2%;
+}
+
+.opis h4 {
+	margin-bottom: -4%;
+}
+
+.th_opis {
+	margin: 0;
+	padding: 2%;
+	font-size: 18px;
+}
+
+.vi {
+	border: 1px solid rgba(0,0,0,0.2);
+	padding: 2%;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.img_mebel {
+	margin-top: 8%;
+	margin-bottom: 8%;
+}
+
+@media screen and (min-width: 1920px) {
+	.th_cont_shkaf {
+		margin-top: 7%;
+		margin-left: 26%;
+	}
+
+	.cont_grid_pokyp {
+		margin-left: 26%;
+		margin-right: 26%;
+	}
+
+	.inf_pokyp {
+		height: 41%;
+	}
+
+	.opis h4 {
+		margin-bottom: -3%;
+	}
+}

@@ -1,0 +1,114 @@
+.katal_mebel {
+	margin-top: 10%;
+}
+
+.gl_katal {
+	font-size: 28px;
+	text-align: center;
+}
+
+.kont {
+	background-color: rgba(0,0,0,0.4);
+	padding: 0.5px;
+}
+
+.th_cont_katal {
+	padding-left: 2%;
+	color: black;
+}
+
+.th_cont_katal:hover {
+	color: #c49826;
+	transform: scale(1.1);
+}
+
+.div_kresl {
+	padding: 1%;
+	padding-left: 20%;
+}
+
+.div_kresl:hover {
+	transform: scale(0.96);
+	transition: all 0.4s ease;
+}
+
+.th_div_kresl {
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+
+.cont_div_kresl {
+	padding-top: 2%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	text-align: center;
+	width: 820px;
+}
+
+.shkfs {
+	padding: 1%;
+	padding-left: 20%;
+}
+
+.shkfs:hover {
+	transform: scale(0.96);
+	transition: all 0.4s ease;
+}
+
+.th_shkafs {
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+
+.cont_shkafs {
+	padding-top: 2%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	text-align: center;
+	width: 660px;
+}
+
+.mebel_gost {
+	padding: 1%;
+	padding-left: 20%;
+}
+
+.mebel_gost:hover {
+	transform: scale(0.96);
+	transition: all 0.4s ease;
+}
+
+.th_mebel_gost {
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+
+.cont_mebel_gost {
+	padding-top: 2%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	text-align: center;
+	width: 760px;
+}
+
+.m_d_g {
+	padding-top: 58%;
+}
+
+@media screen and (min-width: 1920px) {
+	.katal_mebel {
+		margin-top: 7%;
+	}
+
+	.div_kresl {
+		padding-left: 26%;
+	}
+
+	.shkfs {
+		padding-left: 26%;
+	}
+
+	.mebel_gost {
+		padding-left: 26%;
+	}
+}

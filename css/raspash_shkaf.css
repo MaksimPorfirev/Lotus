@@ -1,0 +1,87 @@
+.cont_shkaf_kypa {
+	margin-top: 10%;
+	margin-bottom: 2%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.th_shkaf_cypa {
+	text-align: center;
+	font-size: 28px;
+	margin-bottom: 6%;
+	letter-spacing: 5px;
+}
+
+.grid_shkaf_kypa {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 10px;
+}
+
+.shkaf_cype1 {
+	padding: 4%;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.shkaf_cype1:hover {
+	transform: scale(1.04);
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.img_shkaf_cype {
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.nam_mabl {
+	color: black;
+}
+
+.thena {
+	font-size: 12px;
+}
+
+.cont_thena {
+	font-size: 22px;
+}
+
+.shkaf_cype2 {
+	padding: 4%;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.shkaf_cype2:hover {
+	transform: scale(1.04);
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.shkaf_cype3 {
+	padding: 4%;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.shkaf_cype4 {
+	padding: 4%;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.shkaf_cype5 {
+	padding: 4%;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.shkaf_cype6 {
+	padding: 4%;
+	border: 1px solid rgba(0,0,0,0.1);
+}
+
+@media screen and (min-width: 1920px) {
+	.cont_shkaf_kypa {
+		margin-top: 7%;
+		margin-bottom: 2%;
+		margin-left: 26%;
+		margin-right: 26%;
+	}
+}
